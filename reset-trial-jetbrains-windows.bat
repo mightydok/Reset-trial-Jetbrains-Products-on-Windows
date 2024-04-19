@@ -2,7 +2,7 @@
 SETLOCAL
 
 REM Define IDE names
-SET IDE_NAMES="WebStorm" "IntelliJ" "CLion" "Rider" "GoLand" "PhpStorm" "Resharper" "PyCharm"
+SET IDE_NAMES="WebStorm" "IntelliJ" "CLion" "Rider" "GoLand" "PhpStorm" "Resharper" "PyCharm" "DataGrip"
 
 REM Delete eval folder with license key and options.xml which contains a reference to it
 FOR %%I IN (%IDE_NAMES%) DO (
